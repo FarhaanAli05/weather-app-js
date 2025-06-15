@@ -20,6 +20,11 @@ body {
   text-align: center;
 }
 
+.card.forecast {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 .search {
   width: 100%;
   display: flex;
@@ -104,4 +109,15 @@ body {
   font-size: 14px;
   margin-top: 10px;
   display: none;
+}
+
+.js-forecast-container {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.forecast img {
+  width: 150px;
 }
